@@ -22,7 +22,7 @@ data = pd.read_csv("dataset/data.csv")
 X = data.iloc[:,0:-1]
 y = data.iloc[:,-1]
 
-model = open("Agriculture_XGBoost_Model.pkl", 'rb')
+model = open("Agriculture_Logistic_Model.pkl", 'rb')
 classifier = pickle.load(model)
 
 home_img = Image.open("assets/npk.jpg")
