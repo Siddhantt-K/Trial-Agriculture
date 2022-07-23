@@ -6,11 +6,11 @@ import pickle
 import pandas as pd
 import numpy as np
 from PIL import Image
-import webbrowser
+# import webbrowser
 import io
 import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.express as px
+# import plotly.express as px
 
 img = Image.open("icon.png") 
 
