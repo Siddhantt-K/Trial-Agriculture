@@ -1,8 +1,8 @@
-matplotlib
-numpy
-pandas
-Pillow
-seaborn
-streamlit
-streamlit_option_menu
-protobuf
+matplotlib==3.3.4
+numpy==1.20.2
+pandas==1.2.4
+Pillow==8.3.1
+seaborn==0.11.1
+streamlit==1.1.0
+streamlit_option_menu==0.3.2
+protobuf==3.19.1
